@@ -42,6 +42,3 @@ def speak_ICAO(sentence):
 
 
 speak_ICAO('The quick brown fox jumped over the lazy dog.')
-
-
-
