@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Local files
+excers.py
+gym_carrey.py
+functions_sum_mullti.py
+
 # C extensions
 *.so
 
@@ -102,3 +107,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
