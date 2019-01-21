@@ -35,7 +35,7 @@ def add_minutes(time, minutes_to_add):
     hour = hour % HOURS_IN_DAY
     minute = sum_of_minutes % MIN_IN_HOUR
 
-    return f'{hour:22}:{minute:02}'  # 02 displays 
+    return f'{hour:02}:{minute:02}'  # 02 allow display extra 0 before one number hour or minute
 
 
 print(add_minutes('23:55', 6))
