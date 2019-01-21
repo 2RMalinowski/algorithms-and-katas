@@ -78,11 +78,4 @@ def sorted_histogram_from(dictionary):
 display_elements(sorted_histogram_from(char_freq('abbabcbdbabdbdbabababcbcbab')))
 
 
-# sorted_histogram_from((char_freq('abbabcbdbabdbdbabababcbcbab')))
-
-
-# print(f"{key} {max_value * '*'}")
 # or using funcion: sorted(histograms_list, key=len, reverse=True)
-
-# [(k, v) for k, v in dic.items()]
-# res = [el for el in lst if el[1] > 3]
