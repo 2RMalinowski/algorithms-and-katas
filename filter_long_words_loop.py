@@ -33,4 +33,4 @@ def filter_long_words(list_of_words, length_of_word):
     return list_of_longer_words
 
 
-display_elements(filter_long_words(words_from('hipster_data.txt'), 10))
+display_elements(filter_long_words(words_from('hipster_data.txt'), 12))
