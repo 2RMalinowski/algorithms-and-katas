@@ -4,7 +4,6 @@ Caesar cipher (with using ord() and chr(), instead defined dictionary)
 
 
 def rot_as_many_as_wish(sentence, rotation):
-    number = 0
     letter_list = []
     for letter in sentence:
         if ord(letter) >= ord('a') and ord(letter) <= ord('z'):
