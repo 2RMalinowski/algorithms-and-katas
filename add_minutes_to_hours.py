@@ -28,14 +28,14 @@ def add_minutes(hour, minute, minutes_to_add):
 
 # time format str HH:MM
 def add_minutes(time, minutes_to_add):
-    hour, min = time.split(':')
-    minutes_form_time = int(hour) * MIN_IN_HOUR + int(min)
+    hour, minute = time.split(':')
+    minutes_form_time = int(hour) * MIN_IN_HOUR + int(minute)
     sum_of_minutes = minutes_form_time + minutes_to_add
     hour = sum_of_minutes // MIN_IN_HOUR
     hour = hour % HOURS_IN_DAY
-    minute = sum_of_minutes % MIN_IN_HOUR
+    minutes = sum_of_minutes % MIN_IN_HOUR
 
-    return f'{hour:02}:{minute:02}'  # 02 allow display extra 0 before one number hour or minute
+    return f'{hour:02}:{minutes:02}'  # 02 allow display extra 0 before one number hour or minute
 
 
 print(add_minutes('23:55', 6))
