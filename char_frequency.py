@@ -75,7 +75,8 @@ def sorted_histogram_from(dictionary):
 
 
 # print(sorted_histogram_from((char_freq('abbabcbdbabdbdbabababcbcbab'))))
-display_elements(sorted_histogram_from(char_freq('abbabcbdbabdbdbabababcbcbab')))
+display_elements(sorted_histogram_from(
+    char_freq('abbabcbdbabdbdbabababcbcbab')))
 
 
 # or using funcion: sorted(histograms_list, key=len, reverse=True)
