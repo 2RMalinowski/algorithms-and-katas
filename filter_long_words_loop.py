@@ -4,7 +4,7 @@ and returns the list of words that are longer than n.
 """
 
 
-def words_from(words_file ):
+def words_from(words_file):
     words_list = []
     plain_words_list = []
     with open(words_file, 'r') as sourcefile:
