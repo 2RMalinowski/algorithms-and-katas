@@ -23,9 +23,6 @@ def words_from(words_file):
     return plain_words_list
 
 
-# print(words_from('hipster_data.txt'))
-
-
 def get_unique(words):
     occurrence = {}
     unique_elements = []
